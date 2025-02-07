@@ -1,11 +1,16 @@
-# Water-selling-
-A normal website for a water bottle selling platform to gather customers etc
-# You Can DO Live View Here
-https://stayhydrated.tech
-# Tech stack used to create
-1 Flask as Backend Framework
-2 Python core backend language
-3 Html, css, bootstrap
-4 Google Recaptcha 
-5 Flask mail for reciving client data
-6 Heroku as devlopment server
+# Water-selling-Website
+
+A website for a water bottle selling platform to gather customers, etc.
+
+# Live View
+
+[https://stayhydrated.tech](https://stayhydrated.tech)
+
+# Tech Stack
+
+*   Flask (Backend Framework)
+*   Python (Core Backend Language)
+*   HTML, CSS, Bootstrap (Frontend)
+*   Google Recaptcha
+*   Flask Mail (for receiving client data)
+*   Heroku (Development Server)
