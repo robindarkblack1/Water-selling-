@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - StayHydrated</title>
+    <link rel="stylesheet" href={{url_for('static', filename='css/contact.css')}}>
+    <link rel="icon" href={{url_for('static', filename='images/Icon.ico')}}>
+    <link rel="stylesheet" href="../static/css/mediaquery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"><a href="/"><img src="../static/images/Logo.png" alt="Site_Logo"></a></div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/advertise">Advertise</a>
+            <a href="/distribute">Distribute</a>
+            <a href="/contact"  class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <header class="mobile-header">
+        <nav>
+            <ul class="mobile-nav-bar">
+                <li class="mobile-logo"><a href="/"><img src="../static/images/Logo.png" /></a></li>
+                <input type="checkbox" id="mobile-check" />
+                <span class="mobile-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/advertise">Advertise</a></li>
+                    <li><a href="/distribute">Distribute</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                    <label for="mobile-check" class="mobile-close-menu"><i class="bi bi-x-lg"></i></label>
+                </span>
+                <label for="mobile-check" class="mobile-open-menu"><i class="bi bi-list"></i></label>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div>
+                <h1 class="main-title">Feel Free to Contact Us</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="left-panel mrb">
+            <h2>Contact Info</h2>
+            <h4>Address</h4>
+            <p>Asia Pacific Institute of Information Technology, Panipat, Haryana</p>
+            <h4>Phone Number</h4>
+            <p>+91 8307249859</p>
+            <h4>Email Address</h4>
+            <p>contact@stayhydrated.tech</p>
+            <h4>Social Links</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/stayhydrated.tech" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-whatsapp" target="_blank"></i></a>
+                <a href="#"><i class="bi bi-youtube" target="_blank"></i></a>
+            </div>
+        </div>
+        <div class="right-panel bottom">
+            <h2>Get In Touch</h2>
+            <form action="/send-message" method="POST">
+                <label for="input1">Name</label>
+                <input id="input1" type="text" name="name" autocomplete="off" required>
+            
+                <label for="input2">Email Address</label>
+                <input id="input2" type="email" name="email" autocomplete="off" required>
+            
+                <label for="input3">Phone Number</label>
+                <input id="input3" type="tel" name="text" autocomplete="off" required>
+            
+                <label for="textarea">Message</label>
+                <input id="textarea" name="text" class="message" autocomplete="off" required>
+            
+                <button type="submit">Send a message</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo"><img src="../static/images/Logo.png" alt="This is Logo"></div>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/advertise">Advertise</a>
+            <a href="/distribute">Distribute</a>
+            <a href="/contact">Contact Us</a>
+        </div>
+        <p class="tagline">Your Partner in Hydration and Growth.</p>
+        <p class="copyright">&copy; 2025 StayHydrated. All Rights Reserved.</p>
+    </footer>
+</body>
+<script src="../static/js/script.js"></script>
+</html>

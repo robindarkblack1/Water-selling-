@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - StayHydrated</title>
+    <link rel="stylesheet" href={{url_for('static', filename='css/about.css' )}}>
+    <link rel="stylesheet" href="../static/css/mediaquery.css">
+    <link rel="icon" href="Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"><a href="/"><img src="../static/images/Logo.png" alt="Site_Logo"></a></div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about" class="active">About Us</a>
+            <a href="/advertise">Advertise</a>
+            <a href="/distribute">Distribute</a>
+            <a href="/contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <header class="mobile-header">
+        <nav>
+            <ul class="mobile-nav-bar">
+                <li class="mobile-logo"><a href="/"><img src="../static/images/Logo.png" /></a></li>
+                <input type="checkbox" id="mobile-check" />
+                <span class="mobile-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/advertise">Advertise</a></li>
+                    <li><a href="/distribute">Distribute</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                    <label for="mobile-check" class="mobile-close-menu"><i class="bi bi-x-lg"></i></label>
+                </span>
+                <label for="mobile-check" class="mobile-open-menu"><i class="bi bi-list"></i></label>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <h1 class="main-title">Welcome to <span class="stayhydrated">StayHydrated!</span></h1>
+                <p class="para">
+                    At StayHydrated, we blend innovation with philanthropy to make water freely accessible while
+                    promoting charitable causes and environmental responsibility. Our unique model funds these
+                    initiatives through
+                    advertising, ensuring a positive social impact.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="main-content">
+        <div class="left-panel mrb">
+            <h2>Free Bottled Water Distribution</h2>
+
+            <p class="message">
+                We provide free bottled water to ensure everyone has access to this vital resource. Each bottle features
+                advertisements from various brands, creating a platform for advertisers to reach a wide audience and
+                generate revenue for our charitable goals.
+            </p>
+        </div>
+        <div class="left-panel space">
+            <h2>Support for Water Well Charities</h2>
+            <p class="message">
+                For every bottle distributed, ten cents are donated to water well charities. This contribution helps
+                build and maintain wells in communities lacking clean water, addressing the global water crisis one step
+                at a time.
+            </p>
+        </div>
+    </section>
+
+    <div class="container partner">
+        <div class="row">
+            <div>
+                <p class="para">
+                    Join us in our mission to make water accessible to all and support global water well initiatives.
+                    Together, we can make a lasting impact, one bottle at a time.
+                </p>
+                <h1 class="main-title"><span class="stayhydrated">StayHydrated</span> - Fuel your day, Every Sip of the
+                    Way. 🥤</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-logo"><img src="../static/images/Logo.png" alt="This is Logo"></div>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/advertise">Advertise</a>
+            <a href="/distribute">Distribute</a>
+            <a href="/contact">Contact Us</a>
+        </div>
+        <p class="tagline">Your Partner in Hydration and Growth.</p>
+        <p class="copyright">&copy; 2025 StayHydrated. All Rights Reserved.</p>
+    </footer>
+</body>
+
+<script src="../static/js/script.js"></script>
+
+</html>
